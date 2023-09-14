@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_x="66dp"
+        android:layout_y="74dp"
+        android:background="#70FF0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="129dp"
+        android:layout_height="60dp"
+        android:layout_x="69dp"
+        android:layout_y="233dp"
+        android:background="#70FF0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="221dp"
+        android:layout_height="46dp"
+        android:layout_x="67dp"
+        android:layout_y="162dp"
+        android:text="Toggle Button: ON"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left|center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="45dp"
+        android:layout_x="71dp"
+        android:layout_y="323dp"
+        android:text="Toggle Button: ON"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left|center" />
+</AbsoluteLayout>

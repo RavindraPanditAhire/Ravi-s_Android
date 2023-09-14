@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="#ECC6C6"
+    android:padding="2dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <EditText
+        android:id="@+id/studname"
+        android:layout_width="345dp"
+        android:layout_height="83dp"
+        android:layout_margin="20dp"
+        android:layout_x="6dp"
+        android:layout_y="326dp"
+        android:hint="Enter Student Name: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/teacher_name"
+        android:layout_width="357dp"
+        android:layout_height="83dp"
+        android:layout_margin="20dp"
+        android:layout_x="4dp"
+        android:layout_y="426dp"
+        android:ems="10"
+        android:hint="Enter Teacher Name: "
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="350dp"
+        android:layout_height="76dp"
+        android:layout_x="4dp"
+        android:layout_y="531dp"
+        android:background="#E3B6B6"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="screen" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="178dp"
+        android:layout_height="67dp"
+        android:layout_x="99dp"
+        android:layout_y="617dp"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF5722"
+        app:srcCompat="@android:drawable/title_bar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="101dp"
+        android:layout_x="8dp"
+        android:layout_y="193dp"
+        android:text="Welcome To Sandip Polytechinic..Submit Your Valuable Feedback"
+        android:textColor="#810C85"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

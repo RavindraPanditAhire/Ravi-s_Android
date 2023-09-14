@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:foregroundGravity="center_vertical|center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_x="9dp"
+        android:gravity="center|left"
+        android:layout_y="46dp"
+        android:foregroundGravity="center_vertical|center"
+        android:text="Name: Ravindra Pandit Ahire"
+        android:textColor="@color/purple_700"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="344dp"
+        android:layout_height="66dp"
+        android:layout_margin="20sp"
+        android:layout_x="10dp"
+        android:layout_y="148dp"
+        android:foregroundGravity="center_vertical|center"
+        android:text="Age: 21"
+        android:gravity="center|left"
+        android:textColor="@color/purple_700"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="81dp"
+        android:layout_margin="20sp"
+        android:layout_x="12dp"
+        android:layout_y="240dp"
+        android:gravity="center|left"
+        android:foregroundGravity="center_vertical|center"
+        android:text="Mobile no.: 9322026193"
+        android:textColor="@color/purple_700"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+</AbsoluteLayout>

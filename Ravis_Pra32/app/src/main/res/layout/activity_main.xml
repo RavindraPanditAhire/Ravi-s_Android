@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="String"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="top|left"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Integer"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="top|center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Float"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="top|right"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boolean"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="center|left"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="center|right"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Array"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|left"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Byte"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|center"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|right"/>
+</FrameLayout>

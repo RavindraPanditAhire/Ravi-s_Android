@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMS__Send__Application</string>
+    <string name="mobile_no">Mobile NO.</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="t">To,</string>
+</resources>

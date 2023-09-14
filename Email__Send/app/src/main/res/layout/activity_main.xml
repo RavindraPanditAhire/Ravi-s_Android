@@ -1,0 +1,94 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="576dp"
+        android:backgroundTint="#B0C1C5C0"
+        android:background="#5B756A6A"
+        android:text="@string/send_e_mail"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_x="5dp"
+        android:layout_y="30dp"
+        android:text="@string/send_email_example"
+        android:textColor="#55930E"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TOtext"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_x="32dp"
+        android:layout_y="127dp"
+        android:autofillHints=""
+        android:background="#5B756A6A"
+        android:ems="10"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/SUBJECTtext"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="203dp"
+        android:ems="10"
+        android:hint="@string/subject"
+        android:background="#5B756A6A"
+        android:inputType="textEmailSubject"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/CCtext"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:background="#5B756A6A"
+        android:layout_y="287dp"
+        android:ems="10"
+        android:hint="@string/cc"
+        android:inputType="textPersonName"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/MESSAGEtext"
+        android:layout_width="320dp"
+        android:layout_height="190dp"
+        android:layout_x="37dp"
+        android:layout_y="355dp"
+        android:ems="10"
+        android:background="#5B756A6A"
+        android:inputType="textMultiLine"
+        android:hint="@string/message"
+        android:textColor="#0C0C0C"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:autofillHints="" />
+
+</AbsoluteLayout>

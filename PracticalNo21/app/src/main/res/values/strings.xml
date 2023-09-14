@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Practical No-21</string>
+    <string name="broadcast_intent">BroadCast Intent</string>
+</resources>

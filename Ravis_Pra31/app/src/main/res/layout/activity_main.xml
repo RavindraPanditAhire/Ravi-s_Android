@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:padding="10sp"
+    android:rowCount="11"
+    tools:context=".MainActivity">
+
+    <TableRow android:layout_height="69dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/column1"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:text="Sr.No."
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/column2"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Student Name"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/column3"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="Branch"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/column4"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="Percentage"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud1_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="1"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud1_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Ravindra Ahire"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/stud1_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud1_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="84.11%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud2_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="2"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud2_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Bhavesh Duse"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud2_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud2_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="80.11%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud3_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="3"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud3_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Vedant Shrigadi"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud3_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud3_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="79.81%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud4_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="4"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud4_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Yash Marathe"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud4_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud4_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="85.00%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud5_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="5"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud5_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Dipak pawar"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud5_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud5_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="82.35%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud6_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="6"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud6_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="vaibhav patil"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud6_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud6_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="82.89%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud7_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="7"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud7_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Durvesh patil"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud7_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud7_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="90.00%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud8_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="8"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud8_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Bhausaheb Ahire"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud8_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud8_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="92.32%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud9_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="9"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud9_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Pravin Ahire"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud9_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud9_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="86.23%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:layout_height="73dp"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/stud10_srnum"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="10"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud10_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Nilesh Ahire"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud10_branch"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="TYCO"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stud10_Marks"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="83.56%"
+            android:textColor="#091706"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>

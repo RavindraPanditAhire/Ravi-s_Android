@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:background="@drawable/backwall"
+    android:orientation="vertical"
+    android:padding="5sp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:padding="5sp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_margin="20sp"
+        android:background="#94CC94"
+        android:backgroundTintMode="multiply"
+        android:ems="10"
+        android:hint="Email: "
+        android:inputType="textPersonName"
+        android:padding="5sp"
+        android:paddingLeft="10dp"
+        android:textColor="#E8420E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_margin="20sp"
+        android:background="#C7ECC5"
+        android:backgroundTint="#F4EEEE"
+        android:backgroundTintMode="multiply"
+        android:ems="10"
+        android:hint="Password: "
+        android:inputType="textPersonName"
+        android:padding="5sp"
+        android:textColor="#E8420E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:layout_marginTop="40dp"
+        android:padding="5sp"
+        app:srcCompat="@drawable/logbutton" />
+</LinearLayout>

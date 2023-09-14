@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/container1" >
+
+    <LinearLayout
+        android:id="@+id/infirstCon"
+        android:layout_width="371dp"
+        android:layout_height="213dp"
+        android:layout_x="17dp"
+        android:layout_y="18dp"
+        android:background="#8C8686"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="163dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="40sp"
+        android:layout_x="219dp"
+        android:layout_y="256dp"
+        android:background="#8C8686"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="166dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="40sp"
+        android:layout_x="21dp"
+        android:layout_y="256dp"
+        android:background="#8C8686">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/insecCon"
+        android:layout_width="371dp"
+        android:layout_height="222dp"
+        android:layout_x="18dp"
+        android:layout_y="482dp"
+        android:background="#8C8686"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</AbsoluteLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_foreground"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <ImageButton
+        android:id="@+id/clearButton"
+        android:layout_width="230dp"
+        android:layout_height="83dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/fvalue"
+        android:layout_width="306dp"
+        android:layout_height="61dp"
+        android:layout_margin="20dp"
+        android:layout_x="18dp"
+        android:layout_y="180dp"
+        android:backgroundTint="@color/purple_500"
+        android:editable="false"
+        android:hint="Enter First Value: "
+        android:inputType="number"
+        android:textColor="#BB04EC"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/svalue"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        tools:layout_editor_absoluteX="52dp" />
+
+    <EditText
+        android:id="@+id/svalue"
+        android:layout_width="306dp"
+        android:layout_height="61dp"
+        android:layout_margin="20dp"
+        android:layout_x="18dp"
+        android:layout_y="180dp"
+        android:hint="Enter Second Value: "
+        android:inputType="number"
+        android:textColor="#BB04EC"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/svalue"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        tools:layout_editor_absoluteX="52dp" />
+
+
+    <ScrollView
+        android:layout_width="338dp"
+        android:layout_height="70dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:text="Result: "
+                android:textColor="#E83E09"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/sumbutton"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/subbutton"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mulbutton"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="*"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/divbutton"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="/"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/modbutton"
+        android:layout_width="400dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="%"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userditText"
+        android:layout_width="282dp"
+        android:layout_height="168dp"
+        android:layout_margin="100sp"
+        android:layout_x="6dp"
+        android:layout_y="157dp"
+        android:backgroundTint="#D00BE6"
+        android:ems="10"
+        android:text="Hello World!!"
+        android:textColor="@color/purple_500"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</ScrollView>

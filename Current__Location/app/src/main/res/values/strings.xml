@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Current__Location</string>
+    <string name="get_current_location_and_city_name">Get Current Location and City Name</string>
+</resources>

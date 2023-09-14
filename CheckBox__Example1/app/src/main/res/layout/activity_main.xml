@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:background="#F8EEEE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="Select your Favourite Programming Lanuage: "
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="JAVA"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="PYTHON"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="HTML"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="ADVANCE JAVA"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:text="PHP"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

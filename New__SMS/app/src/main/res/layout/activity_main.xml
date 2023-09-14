@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/notext"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_x="38dp"
+        android:layout_y="102dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/to"
+        android:inputType="phone"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/messagetext"
+        android:layout_width="297dp"
+        android:layout_height="122dp"
+        android:layout_x="38dp"
+        android:layout_y="202dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/message"
+        android:inputType="textMultiLine"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="141dp"
+        android:layout_height="69dp"
+        android:layout_x="46dp"
+        android:layout_y="339dp"
+        android:text="@string/send"
+        android:textSize="29sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="67dp"
+        android:layout_x="117dp"
+        android:layout_y="12dp"
+        app:srcCompat="@android:drawable/sym_action_email" />
+
+    <ImageView
+        android:id="@+id/contactimg"
+        android:layout_width="51dp"
+        android:layout_height="69dp"
+        android:layout_x="345dp"
+        android:layout_y="102dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+</AbsoluteLayout>

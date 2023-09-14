@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18FFFF"
+    tools:context=".quate__display">
+
+    <AbsoluteLayout
+        android:layout_width="359dp"
+        android:layout_height="599dp"
+        android:layout_margin="24sp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121">
+
+
+        <ImageView
+            android:id="@+id/collgeLogo"
+            android:layout_width="355dp"
+            android:layout_height="173dp"
+            android:layout_x="1dp"
+            android:layout_y="2dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/sandipfoundation_logo" />
+
+        <ImageView
+            android:id="@+id/userLogo"
+            android:layout_width="51dp"
+            android:layout_height="54dp"
+            android:layout_x="11dp"
+            android:layout_y="306dp"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <ImageView
+            android:id="@+id/passwordLogo"
+            android:layout_width="52dp"
+            android:layout_height="54dp"
+            android:layout_x="12dp"
+            android:layout_y="239dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_x="77dp"
+            android:layout_y="236dp"
+            android:ems="10"
+            android:hint="Username/Student ID"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_x="79dp"
+            android:layout_y="308dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="208dp"
+            android:layout_y="404dp"
+            android:backgroundTint="#DC0D89"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="404dp"
+            android:text="Remeber Me"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/registertextView"
+            android:layout_width="114dp"
+            android:layout_height="31dp"
+            android:layout_x="19dp"
+            android:layout_y="557dp"
+            android:gravity="center|left"
+            android:text="Register Now"
+            android:textColor="#06BABA"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/forgottextView"
+            android:layout_width="137dp"
+            android:layout_height="30dp"
+            android:layout_x="211dp"
+            android:layout_y="556dp"
+            android:gravity="center|left"
+            android:text="Forgot Password?"
+            android:textColor="#06BABA"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sessionMessagetextView"
+            android:layout_width="276dp"
+            android:layout_height="34dp"
+            android:layout_x="43dp"
+            android:layout_y="185dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Sign in to start your Session" />
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

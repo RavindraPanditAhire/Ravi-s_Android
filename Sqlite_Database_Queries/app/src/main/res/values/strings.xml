@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sqlite_Database_Queries</string>
+    <string name="insert_data">Insert Data</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="address">Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="your_name">your Name</string>
+    <string name="id">ID</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="search_data">Search Data</string>
+</resources>

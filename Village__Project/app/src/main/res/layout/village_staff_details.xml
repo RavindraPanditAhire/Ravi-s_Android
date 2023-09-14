@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewStaffName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staff Name"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStaffName"
+        android:layout_marginTop="16dp"
+        android:text="Designation: Not specified"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDesignation"
+        android:layout_marginTop="8dp"
+        android:text="Contact Number: Not specified"
+        android:textSize="18sp" />
+
+    <!-- Add additional details and buttons as needed -->
+
+</RelativeLayout>

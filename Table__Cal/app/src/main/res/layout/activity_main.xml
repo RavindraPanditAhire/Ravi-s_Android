@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="730sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+
+        android:gravity="left|center"
+        android:hint="Result:"
+        android:paddingLeft="20sp"
+        android:textColor="@color/purple_500"
+        android:textSize="60sp" />
+
+    <TableLayout
+        android:layout_height="800sp"
+        android:layout_width="wrap_content"
+        android:id="@+id/tablecontainer"
+        >
+        <TableRow android:layout_width="match_parent">
+            <Button
+                android:id="@+id/acbutton"
+                android:layout_width="95dp"
+                android:layout_height="80sp"
+                android:layout_column="1"
+                android:background="#F40B0B"
+                android:text="AC"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/modutton"
+                android:layout_width="114dp"
+                android:layout_height="80sp"
+                android:layout_column="2"
+                android:background="#F14008"
+                android:text="%"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/suutton"
+                android:layout_width="109dp"
+                android:layout_height="80sp"
+                android:layout_column="3"
+                android:background="#F14008"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/divbutton"
+                android:layout_width="83dp"
+                android:layout_height="80sp"
+                android:layout_column="4"
+                android:background="#3ED115"
+                android:text="/"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/onebutton"
+                android:layout_width="95dp"
+                android:layout_height="80sp"
+                android:layout_column="1"
+                android:background="#CAC4C4"
+                android:text="1"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/twobutton"
+                android:layout_width="114dp"
+                android:layout_height="80sp"
+                android:layout_column="2"
+                android:background="#CAC4C4"
+                android:text="2"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/threebutton"
+                android:layout_width="109dp"
+                android:layout_height="80sp"
+                android:layout_column="3"
+                android:background="#CAC4C4"
+                android:text="3"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/mulbutton"
+                android:layout_width="83dp"
+                android:layout_height="80sp"
+                android:layout_column="4"
+                android:background="#3ED115"
+                android:text="*"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/fourbutton"
+                android:layout_width="95dp"
+                android:layout_height="80sp"
+                android:layout_column="1"
+                android:background="#CAC4C4"
+                android:text="4"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/fivebutton"
+                android:layout_width="114dp"
+                android:layout_height="80sp"
+                android:layout_column="2"
+                android:background="#CAC4C4"
+                android:text="5"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/sixbutton"
+                android:layout_width="109dp"
+                android:layout_height="80sp"
+                android:layout_column="3"
+                android:background="#CAC4C4"
+                android:text="6"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/addbutton"
+                android:layout_width="83dp"
+                android:layout_height="80sp"
+                android:layout_column="4"
+                android:background="#38D11D"
+                android:text="+"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/sevenbutton"
+                android:layout_width="95dp"
+                android:layout_height="80sp"
+                android:layout_column="1"
+                android:background="#CAC4C4"
+                android:text="7"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/eightbutton"
+                android:layout_width="114dp"
+                android:layout_height="80sp"
+                android:layout_column="2"
+                android:background="#CAC4C4"
+                android:text="8"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/ninebutton"
+                android:layout_width="109dp"
+                android:layout_height="80sp"
+                android:layout_column="3"
+                android:background="#CAC4C4"
+                android:text="9"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/halfbutton"
+                android:layout_width="83dp"
+                android:layout_height="80sp"
+                android:layout_column="4"
+                android:background="#38D11D"
+                android:text="1/2"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/hashbutton"
+                android:layout_width="95dp"
+                android:layout_height="80sp"
+                android:layout_column="1"
+                android:text="#"
+                android:background="#CAC4C4"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/zerobutton"
+                android:layout_width="114dp"
+                android:layout_height="80sp"
+                android:layout_column="2"
+                android:text="0"
+                android:background="#CAC4C4"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/powerbutton"
+                android:layout_width="109dp"
+                android:layout_height="80sp"
+                android:layout_column="3"
+                android:background="#CAC4C4"
+                android:text="**"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/eqlbutton"
+                android:layout_width="83dp"
+                android:layout_height="67dp"
+                android:layout_column="4"
+                android:background="#EDE90C"
+                android:text="=="
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
