@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/villageDetailsFragment">
+
+    <fragment
+        android:id="@+id/villageDetailsFragment"
+        android:name="com.example.myapp.VillageDetailsFragment"
+        android:label="Village Details"
+        tools:layout="@layout/activity_village_details" />
+
+    <fragment
+        android:id="@+id/schemeDetailsFragment"
+        android:name="com.example.myapp.SchemeDetailsFragment"
+        android:label="Scheme Details"
+        tools:layout="@layout/activity_scheme_details" />
+
+    <fragment
+        android:id="@+id/staffDetailsFragment"
+        android:name="com.example.myapp.StaffDetailsFragment"
+        android:label="Staff Details"
+        tools:layout="@layout/activity_staff_details" />
+
+    <action
+        android:id="@+id/action_to_scheme_details"
+        app:destination="@id/schemeDetailsFragment" />
+
+    <action
+        android:id="@+id/action_to_staff_details"
+        app:destination="@id/staffDetailsFragment" />
+
+</navigation>
