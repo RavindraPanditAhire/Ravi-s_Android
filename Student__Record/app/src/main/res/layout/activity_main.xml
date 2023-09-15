@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_row="4"
+    android:layout_column="1"
+    android:layout_marginTop="20sp"
+    android:layout_x="2000sp"
+    android:layout_y="2000sp"
+    android:padding="10sp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/colname"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:height="20dp"
+            android:text="Student Name"
+            android:textColor="#E40D27"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/colid"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:height="20dp"
+            android:text="Student  ID"
+            android:textColor="#E40D27"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/colper"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:height="20dp"
+            android:text="Student Percentage"
+            android:textColor="#E40D27"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/colcon"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:height="20dp"
+            android:text="Contact Number"
+            android:textColor="#E40D27"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="97dp"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+
+
+        <TextView
+            android:id="@+id/s1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s1id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/s1per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/s1con"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/s2id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s2per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s2con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s3name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s3id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s3per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s3con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s4name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s4id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s4per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s4con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s5name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s5id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s5per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s5con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="283dp"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s6name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s6id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/s6per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s6con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s7name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s7id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s7per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s7con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s8name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s8id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s8per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s8con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s9name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s9id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s9per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s9con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/s10name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Ravindra Ahire"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s10id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="322020091"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s10per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="84.11%"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/s10con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:text="9322026193"
+            android:textSize="10sp" />
+
+
+    </TableRow>
+
+
+</TableLayout>
