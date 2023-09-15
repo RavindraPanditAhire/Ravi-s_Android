@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic_tac_Toe__Game</string>
+    <string name="welcome_to_tic_tac_toe">Welcome To Tic Tac Toe</string>
+    <string name="start">Start</string>
+    <string name="ravi_s_tic_tac_toe_game">Ravi\'s Tic Tac Toe Game</string>
+    <string name="status">Status</string>
+</resources>
